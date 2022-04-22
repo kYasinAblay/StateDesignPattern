@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassicImplementation", "StateDesignPattern.ClassicImplementation\ClassicImplementation.csproj", "{9F4203D2-C1BA-4526-B3BB-D92F7FAC6399}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateMachine_Stateless", "StateMachine_Stateless\StateMachine_Stateless.csproj", "{BAE46B19-FE46-4812-B158-C89A1AA3DDA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachine_Stateless", "StateMachine_Stateless\StateMachine_Stateless.csproj", "{BAE46B19-FE46-4812-B158-C89A1AA3DDA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switch_Expression", "Switch_Expression\Switch_Expression.csproj", "{57763986-E986-49CA-A766-25DEBC1C1DEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch_Expression", "Switch_Expression\Switch_Expression.csproj", "{57763986-E986-49CA-A766-25DEBC1C1DEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switch_Based.State.Machine", "Switch_Based.State.Machine\Switch_Based.State.Machine.csproj", "{A9658510-2D2C-41AB-95C7-1EC5188E8CBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch_Based.State.Machine", "Switch_Based.State.Machine\Switch_Based.State.Machine.csproj", "{A9658510-2D2C-41AB-95C7-1EC5188E8CBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandmadeStateMachine", "HandmadeStateMachine\HandmadeStateMachine.csproj", "{1FD8613B-67F6-4180-AFC5-4AD4EF33C24C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandmadeStateMachine", "HandmadeStateMachine\HandmadeStateMachine.csproj", "{1FD8613B-67F6-4180-AFC5-4AD4EF33C24C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassicImplementation", "ClassicImplementation\ClassicImplementation.csproj", "{4D28FD83-0A7F-4674-929F-3E06E9676A2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9F4203D2-C1BA-4526-B3BB-D92F7FAC6399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F4203D2-C1BA-4526-B3BB-D92F7FAC6399}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F4203D2-C1BA-4526-B3BB-D92F7FAC6399}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F4203D2-C1BA-4526-B3BB-D92F7FAC6399}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BAE46B19-FE46-4812-B158-C89A1AA3DDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BAE46B19-FE46-4812-B158-C89A1AA3DDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAE46B19-FE46-4812-B158-C89A1AA3DDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{1FD8613B-67F6-4180-AFC5-4AD4EF33C24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FD8613B-67F6-4180-AFC5-4AD4EF33C24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FD8613B-67F6-4180-AFC5-4AD4EF33C24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D28FD83-0A7F-4674-929F-3E06E9676A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D28FD83-0A7F-4674-929F-3E06E9676A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D28FD83-0A7F-4674-929F-3E06E9676A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D28FD83-0A7F-4674-929F-3E06E9676A2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
